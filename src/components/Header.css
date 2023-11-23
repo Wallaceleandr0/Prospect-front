@@ -1,0 +1,32 @@
+.Header {
+    background-color: #384DEB;
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+}
+
+.Header nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+}
+
+.Header nav ul a img {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    width: 50px;
+    transition: .3s ease;
+}
+
+.Header nav ul a:hover {
+    transform: scale(1.05);
+    color: black;
+}

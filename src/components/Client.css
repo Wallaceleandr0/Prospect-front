@@ -1,0 +1,75 @@
+.Table {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.Table h1 {
+    font-size: 25px;
+    display: block;
+    color: #fff;
+    margin: 20px auto 0 auto;
+    background-color: #384DEB;
+    width: 230px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.Table h2 {
+    font-size: 30px;
+}
+
+.Table .Table-name-list {
+    margin: 20px auto;
+    display: flex;
+    width: 1450px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Table .Table-name-list h4 {
+    width: 150px;
+    text-align: center;
+    
+}
+
+.Table .Table-list {
+    margin: 0 auto;
+    display: flex;
+    min-height: 100px;
+    justify-content: space-between;
+    max-width: 1450px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.247);
+}
+
+.Table .Table-list img {
+    width: 50px;
+}
+
+.Table .Table-list p, a {
+    color: black;
+    width: 150px;
+}
+.Table .Table-list .btn-check {
+    width: 150px;
+    background-color: rgb(255, 128, 0);
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Table .Table-list button {
+    background-color: #f5002dd7;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    height: 45px;
+}
+
+.Table .Table-list button:hover {
+    opacity: .91;
+}
